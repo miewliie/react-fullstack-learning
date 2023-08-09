@@ -1,4 +1,4 @@
-import axious from "axios";
+import axios from "axios";
 import { useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
@@ -7,7 +7,7 @@ function Home() {
     let navigate = useNavigate();
 
     useEffect(() => {
-      axious.get("http://localhost:3001/posts").then((response) =>{
+      axios.get("http://localhost:3001/posts").then((response) =>{
         setListOfPosts(response.data);
       })
     }, [])
