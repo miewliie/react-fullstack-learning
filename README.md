@@ -1,7 +1,7 @@
 ## Server
-cd server
-run npm start
+- `cd server`
+- `run npm start`
 
 ## Client
-cd client
-run npm start
+- `cd client`
+- `run npm start`
